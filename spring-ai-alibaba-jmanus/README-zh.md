@@ -11,18 +11,15 @@
 
 📚 开发者文档: [Quick Start (EN)](./README-dev-en.md) | [开发者快速入门 (中文)](./README-dev.md)
 
-
 [关于](#-关于) • [快速开始](#-快速开始) • [如何贡献](#-如何贡献)
 
 </div>
-
 
 ## ✨ JManus 简介
 
 JManus 是 Manus 的一个Java实现，目前已经在阿里巴巴集团内的很多应用都有使用，主要用于处理需要有一定确定性要求的探索性任务，比如，快速从海量数据中找到数据并转换成数据库内的一行数据，或者分析日志并给出告警等。
 
 JManus也提供了http的服务调用能力，适合被集成到既有的项目中。具体可以见开发者快速入门
-
 
 ## 🎯 JManus的产品特性
 
@@ -50,8 +47,6 @@ JManus也提供了http的服务调用能力，适合被集成到既有的项目�
 
 通过直观的网页管理界面轻松配置 agent，无需修改代码。
 ![Image](https://github.com/user-attachments/assets/5afdfe2e-0e98-4100-bff1-b7aaf413850b)
-
-
 
 ## 🚀 快速开始
 
@@ -165,7 +160,8 @@ cd spring-ai-alibaba/spring-ai-alibaba-jmanus
 export DASHSCOPE_API_KEY=your_api_key_here
 ```
 
-> 💡 **获取您的 DashScope API 密钥**: 访问 [阿里云百炼控制台](https://bailian.console.aliyun.com/?tab=model#/api-key) 获取免费 API 密钥。
+> 💡 **获取您的 DashScope API 密钥**: 访问 [阿里云百炼控制台](https://bailian.console.aliyun.com/?tab=model#/api-key)
+> 获取免费 API 密钥。
 >
 > **使用其他提供商?** 在 `src/main/resources/application.yml` 中更新配置，以使用您偏好的 AI 模型平台。
 
@@ -203,11 +199,13 @@ JManus 支持 H2（默认）、MySQL以及PostgreSQL数据库。
 #### 4. 启动应用程序
 
 **对于类 Unix 系统 (macOS, Linux):**
+
 ```bash
 ../mvnw spring-boot:run
 ```
 
 **对于 Windows 系统:**
+
 ```bash
 ../mvnw.cmd spring-boot:run
 ```
@@ -220,14 +218,13 @@ JManus 支持 H2（默认）、MySQL以及PostgreSQL数据库。
 
 ### 🔒 安全提示
 
-> 💡 **AI 应用安全**: 与其他 AI 应用一样，在生产环境中建议实施适当的身份认证和访问控制。对于 JManus 而言，这包括对模型对话接口、MCP 服务配置、内置工具管理和系统参数调整功能的安全防护，以避免误用和未授权访问。
-
+> 💡 **AI 应用安全**: 与其他 AI 应用一样，在生产环境中建议实施适当的身份认证和访问控制。对于 JManus 而言，这包括对模型对话接口、MCP
+> 服务配置、内置工具管理和系统参数调整功能的安全防护，以避免误用和未授权访问。
 
 ## 稳定版本的Release
 
 如果你想要之前的稳定版本，可以在这里找到：
 [稳定release版](https://github.com/rainerWJY/Java-Open-Manus/releases)
-
 
 ## 🤝 如何贡献
 
@@ -275,3 +272,5 @@ mvn spring-boot:run
 ⭐ 如果 JManus 加速了您的开发之旅，请在 **GitHub 上给我们点亮一颗星**！
 
 </div>
+
+
